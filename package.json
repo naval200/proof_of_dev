@@ -1,0 +1,26 @@
+{
+  "name": "proof-of-dev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SECURITY DISCLOSURE ARCHIVE — do not npm install. Documents malware in a fake take-home assignment.",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "preinstall": "node scripts/block-install.js",
+    "install": "node scripts/block-install.js",
+    "postinstall": "node scripts/block-install.js",
+    "predev": "node scripts/block-install.js",
+    "dev": "node scripts/block-install.js",
+    "prestart": "node scripts/block-install.js",
+    "start": "node scripts/block-install.js",
+    "prebuild": "node scripts/block-install.js",
+    "build": "node scripts/block-install.js",
+    "test": "node scripts/block-install.js",
+    "prepare": "node scripts/block-install.js"
+  },
+  "devDependencies": {}
+}

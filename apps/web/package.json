@@ -1,0 +1,16 @@
+{
+  "name": "@proof-of-dev/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SECURITY DISCLOSURE — web workspace disabled. Do not install dependencies.",
+  "type": "module",
+  "scripts": {
+    "preinstall": "node ../../scripts/block-install.js",
+    "dev": "node ../../scripts/block-install.js",
+    "start": "node ../../scripts/block-install.js",
+    "build": "node ../../scripts/block-install.js",
+    "lint": "node ../../scripts/block-install.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

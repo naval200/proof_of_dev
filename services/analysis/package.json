@@ -1,0 +1,11 @@
+{
+  "name": "@proof-of-dev/analysis",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SECURITY DISCLOSURE — analysis workspace disabled.",
+  "type": "module",
+  "scripts": {
+    "preinstall": "node ../../scripts/block-install.js"
+  },
+  "dependencies": {}
+}
