@@ -40,6 +40,15 @@ Related public advisories in the same animate/tailwind theme include
 
 ---
 
+## Automated audit (reposafety.com)
+
+A successful static investigation was run with the Cursor skill `/interview-repo-safety`
+([reposafety.com](https://reposafety.com)). The exported transcript and verdict are in
+[`cursor_interview_repository_safety.md`](./cursor_interview_repository_safety.md)
+(DO NOT INSTALL / RUN, high confidence).
+
+---
+
 ## Investigation samples
 
 Quarantined copies (for research / reading only) live under:
